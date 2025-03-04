@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote by Email</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Vote by Email!</h2>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required />
+    <br />
+    <label for="vote">Your Vote:</label>
+    <select id="vote" required>
+        <option value="Option1">1st choice</option>
+        <option value="Option2">2nd choice</option>
+        <option value="Option3">3rd choice</option>
+    </select>
+    <br />
+    <button id="voteButton">Vote!</button>
+
+    <h2>Results :</h2>
+    <p>1st choice: <span id="option1Count">0</span> votes</p>
+    <p>2nd choice: <span id="option2Count">0</span> votes</p>
+    <p>3rd choice: <span id="option3Count">0</span> votes</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
